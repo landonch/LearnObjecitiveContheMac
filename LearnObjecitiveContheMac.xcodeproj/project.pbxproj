@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		59C5DE4818CB24E00097DC17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C5DE4718CB24E00097DC17 /* Foundation.framework */; };
-		59C5DE4B18CB24E00097DC17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C5DE4A18CB24E00097DC17 /* main.m */; };
 		59C5DE4F18CB24E00097DC17 /* LearnObjecitiveContheMac.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 59C5DE4E18CB24E00097DC17 /* LearnObjecitiveContheMac.1 */; };
+		59C5DE5518CB66320097DC17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C5DE4A18CB24E00097DC17 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59C5DE4B18CB24E00097DC17 /* main.m in Sources */,
+				59C5DE5518CB66320097DC17 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +171,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -203,6 +204,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -219,6 +221,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LearnObjecitiveContheMac/LearnObjecitiveContheMac-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -228,6 +231,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LearnObjecitiveContheMac/LearnObjecitiveContheMac-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
